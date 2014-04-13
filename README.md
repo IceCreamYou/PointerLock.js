@@ -28,9 +28,11 @@ the mouse would have moved if it wasn't locked. (This library also normalizes
 the `movementX` and `movementY` properties which are otherwise inconsistent
 across browsers.) For example:
 
-    document.addEventListener('mousemove', function(event) {
-     moveCamera(event.movementX, event.movementY);
-    }, false);
+```javascript
+document.addEventListener('mousemove', function(event) {
+ moveCamera(event.movementX, event.movementY);
+}, false);
+```
 
 ## Browser compatibility
 
